@@ -8,8 +8,9 @@ h2:hover{
 
 #services{
 	color: green;
+
 }
-li:first-child{
+/*li:first-child{
 	color: orange;
 }
 li:nth-child(2){
@@ -17,11 +18,30 @@ li:nth-child(2){
 }
 li:nth-child(3){
 	color: pink;
-}
+}*/
 
-#google-link:link {
+/*#google-link:link {
 	color: blue;
 }
 #google-link:visited {
 	color: red;
+}*/
+
+h2 + a {
+	color: red;
+}
+
+textarea ~ button{
+	color: brown;
+}
+
+form + button{
+	color: yellow;
+}
+
+ul > li {
+	color: blue;
+}
+ul li {
+	color: green;
 }
