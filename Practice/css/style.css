@@ -1,4 +1,4 @@
-h2 {
+h2:hover{
 	color: red;
 }
 
@@ -9,3 +9,4 @@ h2 {
 #services{
 	color: green;
 }
+
