@@ -9,4 +9,12 @@ h2:hover{
 #services{
 	color: green;
 }
-
+li:first-child{
+	color: orange;
+}
+li:nth-child(2){
+	color: yellow;
+}
+li:nth-child(3){
+	color: pink;
+}
