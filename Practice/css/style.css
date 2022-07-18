@@ -8,8 +8,9 @@ h2[class=subtitle]{
 
 #services{
 	color: green;
-
 }
+
+
 /*li:first-child{
 	color: orange;
 }
@@ -56,4 +57,19 @@ h2[class~=article-subtitle]{
 */
 h2[class|=article-subtitle]{
 	background: green;
+}
+
+/*CSS General Rules
+
+Selector - CSS Block({}}) - Properties	
+
+- Selector is where you want to pick the properties
+- CSS Block Is Where we Put the CSS properties or style
+- Properties can be name of the style either colour, background and value
+is for matching the properties depends on the porperties, we can have many properties
+*/
+
+selector {
+	property: value;
+	property_2: value;
 }
