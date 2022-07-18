@@ -86,7 +86,7 @@ body{
 }
 */
 body{
-	background: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) ;
+	background-color: lightgoldenrodyellow;
 }
 #title{
 	color: rgb(186,133,9) ;
@@ -94,4 +94,17 @@ body{
 
 .subtitle{
 	color: rgb(219,148,30); 
+}
+#service-image{
+	height: 400px;
+	width: 70%;
+
+	background:url(../img/img-2.jpg);
+	/*
+	background-repeat: no-repeat;
+	background-size: contain;
+	*/
+	background-size: cover;
+	background-color: brown;
+
 }
