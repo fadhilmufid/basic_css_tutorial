@@ -80,9 +80,13 @@ selector {
 	color: #ba8509 ;
 }
 */ 
-
+/*
 body{
 	background: lightgoldenrodyellow ;
+}
+*/
+body{
+	background: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) ;
 }
 #title{
 	color: rgb(186,133,9) ;
