@@ -75,7 +75,15 @@ selector {
 	property_2: value;
 }
 */
-
+/*
 #title{
 	color: #ba8509 ;
+}
+*/ 
+#title{
+	color: rgb(186,133,9) ;
+}
+
+.subititle{
+	color: rgb(219,168,50) 
 }
