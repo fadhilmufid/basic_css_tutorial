@@ -1,4 +1,4 @@
-h2:hover{
+/*h2:hover{
 	color: red;
 }
 
@@ -9,8 +9,7 @@ h2[class=subtitle]{
 #services{
 	color: green;
 }
-
-
+*/
 /*li:first-child{
 	color: orange;
 }
@@ -27,7 +26,7 @@ li:nth-child(3){
 #google-link:visited {
 	color: red;
 }*/
-
+/*
 h2 + a {
 	color: red;
 }
@@ -55,9 +54,11 @@ h2[class~=article-subtitle]{
 	background: green;
 }
 */
+/*
 h2[class|=article-subtitle]{
 	background: green;
 }
+*/
 
 /*CSS General Rules
 
@@ -67,9 +68,10 @@ Selector - CSS Block({}}) - Properties
 - CSS Block Is Where we Put the CSS properties or style
 - Properties can be name of the style either colour, background and value
 is for matching the properties depends on the porperties, we can have many properties
-*/
+
 
 selector {
 	property: value;
 	property_2: value;
 }
+*/
