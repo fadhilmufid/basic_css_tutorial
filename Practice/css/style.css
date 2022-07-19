@@ -99,6 +99,7 @@ body{
 	color: rgb(186,133,9);
 	font-weight: 400;
 
+
 }
 
 .subtitle{
@@ -133,4 +134,9 @@ body{
 .italics{
 	/*font-style: italic;*/
 	font-style: oblique;
+}
+
+#about-us-image{
+	height: 300px;
+	width: 60%;
 }
