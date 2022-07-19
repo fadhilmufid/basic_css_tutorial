@@ -90,10 +90,12 @@ body{
 	/*text-align: center;*/
 	font-size: 1.15em;
 	text-align: justify;
-	font-family: "Arial", sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
 
 }
 #title{
+	font-family: 'Lato', sans-serif;
 	color: rgb(186,133,9);
 	font-weight: 400;
 
@@ -101,6 +103,7 @@ body{
 
 .subtitle{
 	color: rgb(219,148,30); 
+	font-family: 'Lato', sans-serif;
 }
 #service-image{
 	height: 400px;
