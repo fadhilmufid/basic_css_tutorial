@@ -158,3 +158,19 @@ body{
 .site-table{
 	display: inline-block;
 }
+.container{
+	background-color: white;
+	border: 2px solid brown;
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+}
+.container-item{
+	background: brown;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	width: 70px;
+	line-height: 50px;
+	margin: 10px;
+}
