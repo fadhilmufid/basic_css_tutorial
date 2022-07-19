@@ -108,7 +108,7 @@ body{
 }
 #service-image{
 	height: 400px;
-	width: 70vw;
+	width: 50vw;
 	/*
 	background:url(../img/img-2.jpg);
 	*/
@@ -127,6 +127,8 @@ body{
 	*/
 	background: radial-gradient(circle, red 20%, green 40%, blue 55%);
 	border: 10px solid brown;
+
+
 	
 }
 .link{
@@ -140,14 +142,19 @@ body{
 
 #about-us-image{
 	height: 300px;
-	width: 60%;
+	width: 50vw;
 	border: 6px solid blue;
-	margin: 10px 40px 5px 0;
-	padding: 30px 100px;
+	margin: 10px 10px 10px 10px;
+	padding: 30px 20px;
+	float: right;
 	
 	/*
 	-top,right,bottom,left
 	margin: 100px 40px 5px 0;
 	-top-bottom, right-left
 	margin: 30px 100px;*/
+}
+
+.site-table{
+	display: inline-block;
 }
