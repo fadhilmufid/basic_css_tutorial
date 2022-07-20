@@ -249,7 +249,9 @@ body{
 	border: none;
 	/*transition: background 300ms ease-in-out 1s;*/
 	/*transition: background 300ms linear;*/
-	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
 }
 .submit-button:hover{
 	background: lightblue;
