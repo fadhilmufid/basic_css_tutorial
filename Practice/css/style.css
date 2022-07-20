@@ -240,10 +240,18 @@ body{
 .submit-button{
 	width: 100px;
 	margin: 10px 0;
+	padding: 10px 15px;
 	font-family: "Lato", "sans-serif";
 	font-weight: 600;
 	font-size: 20px;
 	color: white;
 	background: lightseagreen;
 	border: none;
+	/*transition: background 300ms ease-in-out 1s;*/
+	/*transition: background 300ms linear;*/
+	transition: background 1s ease;
+}
+.submit-button:hover{
+	background: lightblue;
+
 }
