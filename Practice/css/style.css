@@ -163,8 +163,8 @@ body{
 	border: 2px solid brown;
 	padding: 10px;
 	margin: 10px;
-
 	height: 300px;
+	/*flex*/
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -180,5 +180,26 @@ body{
 	text-align: center;
 	width: 70px;
 	line-height: 50px; 
+	margin: 10px;
+}
+
+.grid-container{
+	background-color: white;
+	border: 2px solid brown;
+	padding: 10px;
+	margin: 10px;
+	height: 300px;
+	/*grid*/
+	display: grid;
+
+}
+.grid-item{
+
+	color: white;
+	font-size: 25px;
+	text-align: center;
+
+	width: 70px;
+	line-height: 40px; 
 	margin: 10px;
 }
