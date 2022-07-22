@@ -267,8 +267,21 @@ body{
 }
 
 #about-me{
-	animation-name: red-to-black;
+/*	animation-name: red-to-black;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-delay: 1s; 
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;*/
+
+/*	animation: red-to-black 4s linear 0s infinite alternate-reverse;*/
+
+	-webkit-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	-moz-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	-ms-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	-o-animation: red-to-black 4s linear 0s infinite alternate-reverse;
 }
+
 @keyframes red-to-black{
 	/*
 	from{background: red;}
